@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-
 import "./App.css";
-
 function App() {
-  const [count, setCount] = useState(0);
 
-  const [link, setLinks] = useState([
+
+  const [link] = useState([
     "https://chat.whatsapp.com/LOYFMFBjRge0MPeUJAhMGV",
     "https://chat.whatsapp.com/KilAdPtmcZJKUxa5vhbPv0",
   ]);
